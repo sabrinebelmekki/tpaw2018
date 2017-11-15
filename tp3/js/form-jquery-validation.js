@@ -1,5 +1,7 @@
 $(document).ready(function () { //pour chargement de la page
     
+    console.log( "DOM ready!" );
+    
         $('#submit').on("click", function (event) { //ajouter un "listener" à un élément
             event.preventDefault();
             console.log( "click" );
